@@ -1,0 +1,12 @@
+name = "jereme-vans"
+main = "worker.js"
+compatibility_date = "2025-05-01"
+
+# After creating the KV namespace, replace this id with what `wrangler kv:namespace create CACHE` outputs
+# [[kv_namespaces]]
+# binding = "CACHE"
+# id = "PASTE_KV_NAMESPACE_ID_HERE"
+
+# The GOOGLE_API_KEY is a secret — set it with:
+#   wrangler secret put GOOGLE_API_KEY
+# Do NOT commit it here.
